@@ -5,8 +5,11 @@ h1{
 }
 h3{
    font-family: 'Fira Sans Condensed', sans-serif;
-   display: inline-block;
-   
+   display: inline-block; 
+}
+h5{
+    transition: .3s;
+    font-weight: bold;
 }
 .colorful{
     color: #ff0062;
@@ -61,6 +64,7 @@ h3{
     text-decoration: none;
     transition:ease-out .3s;
 }
+
 .pink-button:hover{
     background-color:#ff0062 ; 
 }
@@ -86,7 +90,7 @@ h3{
 .card{
     transition: .5s;
 }
-.card h3,p {
+.card h3 p {
     text-align: center;
     color: white;
 }
@@ -96,6 +100,7 @@ h3{
 .card:hover.card{
     background-color:#ff0062 ;
     box-shadow: 5px 5px 15px rgba(0, 0, 0,5);
+
 }
 .boxes .single_box{
     background-color: rgb(29, 28, 28);
@@ -103,6 +108,40 @@ h3{
     margin: 20px 40px ;
     color: white;
     border-radius: 5px;
-    
+    transition: .5s;
 }
 
+.single_box:hover{
+    background-color:#ff0062 ;
+}
+.single_box:hover h5{
+    transform: translateX(15px);
+}
+.works{
+    margin-top:100px;
+}
+.diffarent .pink-button{
+    color: black;
+    transition: .5s;
+}
+
+.diffarent .pink-button:hover{
+    color: rgb(255, 255, 255);
+}
+.button_texts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.carousel-inner{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.works_pic{
+    width: 120px;
+    height: 390px;     
+}
+.about .paragraph p {
+    width: 400px;
+    
+}
